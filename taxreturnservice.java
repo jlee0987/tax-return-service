@@ -3,10 +3,10 @@ package project5;
 import java.util.*;
 
 /*
-Description: This program calculates and prints a user's tax return bill from A&A Accounting.
+Description: This program calculates and prints a user's tax return bill from JLee Accounting Firm.
 */
 
-public class projectSeven {
+public class projectFive {
 	
 	//declaring console to input data using the scanner
 	static Scanner console = new Scanner(System.in);
@@ -22,42 +22,42 @@ public class projectSeven {
 	double billingAmount; //output variable to store the billing amount
 	
 	//call a method to greet users
-	projectSeven.greetings();
+	projectFive.greetings();
 	
 	//call a method that returns either stop or continue from the user 
-	String decisiontoProceed = projectSeven.getDecision();
+	String decisiontoProceed = projectFive.getDecision();
 	
 while (decisiontoProceed.equalsIgnoreCase("Continue")) {
 		
 	//call a method that returns the yearly income
-	income = projectSeven.getYearlyIncome();
+	income = projectFive.getYearlyIncome();
 	
 	//call a method that returns the hourly rate
-	hourlyRate = projectSeven.getHourlyRate();
+	hourlyRate = projectFive.getHourlyRate();
 	
 	//call a method that returns the consulting time
-	consultingTime = projectSeven.getConsultingTime();
+	consultingTime = projectFive.getConsultingTime();
 	
 	//call a method that determines the billing
-	billingAmount = projectSeven.calculateBill(income,hourlyRate,consultingTime);
+	billingAmount = projectFive.calculateBill(income,hourlyRate,consultingTime);
 	
 	//call a method that prints the bill
-	projectSeven.printBill(income,hourlyRate,consultingTime,billingAmount);
+	projectFive.printBill(income,hourlyRate,consultingTime,billingAmount);
 	
 	//call a method that returns either stop or continue 
-	decisiontoProceed = projectSeven.getDecision();
+	decisiontoProceed = projectFive.getDecision();
 	
 }//end of while 
 
 	//call a method to tell users goodbye
-	projectSeven.goodbye();
+	projectFive.goodbye();
 	
 }//end of main
 	
 	//method that prints greeting
 	public static final void greetings() {
-	System.out.println("Welcome to A&A Accounting");
-	System.out.println("Glad to help you determine your cost for filing 2019 taxes with us");
+	System.out.println("Welcome to JLee Accounting");
+	System.out.println("We are happy to asisst you in determining the cost of filing your 2020 taxes with us.");
 	}
 	
 	//method that asks the user whether they want to stop or continue
@@ -122,7 +122,7 @@ while (decisiontoProceed.equalsIgnoreCase("Continue")) {
 
 	//method that prints goodbye message
 	public static final void goodbye() {
-	System.out.println("Thanks for Visiting A&A Accounting Please allow us to file your 2019 Taxes");
+	System.out.println("Thanks for visiting JLee Accounting.");
 	}
 	
 }//end of class
