@@ -4,7 +4,7 @@ This Java program calculates the billing amount for a customer using JLee Accoun
 
 
 ### Specs
-▪    The program allows the user to input their hourly rate, consulting time, as well as their customer's income.<br/>
+▪    The program allows the user to input their hourly rate, consulting time and income in order to estimate their cost of filing taxes with the accounting firm.<br/>
 
 ▪    If the customer is low income (i.e. earning less than $25,000) there are no charges for the first 30 minutes. Over this time, the service charge is 40% of the hourly rate.
 
