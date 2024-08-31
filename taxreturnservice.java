@@ -3,7 +3,6 @@ package project5;
 import java.util.*;
 
 /*
-Meets: Summer 2022
 Description: This program calculates and prints a user's tax return bill from A&A Accounting.
 */
 
