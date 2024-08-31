@@ -1,4 +1,4 @@
-# 🧾 Tax Return Consulting Calculator
+# 🧾 Tax Return Service
 ### Description
 This Java program calculates the billing amount for a customer using JLee Accounting Firm.<br/>
 
